@@ -47,7 +47,7 @@ class _PandaBarFabButtonState extends State<PandaBarFabButton> {
             width: _touched ? widget.size - 1 : widget.size,
             height: _touched ? widget.size - 1 : widget.size,
             decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(widget.size / 3),
+                borderRadius: BorderRadius.circular(widget.size / 2),
                 gradient: LinearGradient(
                     begin: Alignment.centerLeft,
                     end: Alignment.centerRight,
