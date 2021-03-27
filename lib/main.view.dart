@@ -130,7 +130,7 @@ class _PandaBarState extends State<PandaBar> {
 class _PandaBarClipper extends CustomClipper<Path> {
   final double fabSize;
   final double padding = 50;
-  final double centerRadius = 25;
+  final double centerRadius = 20
   final double cornerRadius = 50;
 
   _PandaBarClipper({this.fabSize = 100});
