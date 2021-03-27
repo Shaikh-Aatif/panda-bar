@@ -58,7 +58,7 @@ class _PandaBarState extends State<PandaBar> {
         CustomPaint(
           painter: _ClipShadowPainter(
             shadow: Shadow(
-                color: Colors.white.withOpacity(.1),
+                color: Colors.black.withOpacity(1),
                 blurRadius: 10,
                 offset: Offset(0, -3)),
             clipper: clipper,
