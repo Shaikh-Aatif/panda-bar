@@ -42,8 +42,8 @@ class _PandaBarButtonState extends State<PandaBarButton>
       });
 
     animation = TweenSequence([
-      TweenSequenceItem(tween: Tween<double>(begin: 0, end: 10), weight: 50),
-      TweenSequenceItem(tween: Tween<double>(begin: 10, end: 0), weight: 50),
+      TweenSequenceItem(tween: Tween<double>(begin: 0, end: 0), weight: 0),
+      TweenSequenceItem(tween: Tween<double>(begin: 0, end: 0), weight: 0),
     ]).chain(CurveTween(curve: Curves.bounceOut)).animate(animationController);
   }
 
