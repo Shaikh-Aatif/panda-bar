@@ -35,15 +35,15 @@ class _PandaBarButtonState extends State<PandaBarButton>
     super.initState();
 
     animationController = AnimationController(
-      duration: Duration(milliseconds: 700),
+      duration: Duration(milliseconds: 100),
       vsync: this,
     )..addListener(() {
         setState(() {});
       });
 
     animation = TweenSequence([
-      TweenSequenceItem(tween: Tween<double>(begin: 0, end: 0), weight: 0),
-      TweenSequenceItem(tween: Tween<double>(begin: 0, end: 0), weight: 0),
+      TweenSequenceItem(tween: Tween<double>(begin: 0, end: 0), weight: 1),
+      TweenSequenceItem(tween: Tween<double>(begin: 0, end: 0), weight: 1),
     ]).chain(CurveTween(curve: Curves.bounceOut)).animate(animationController);
   }
 
