@@ -31,7 +31,8 @@ class _PandaBarFabButtonState extends State<PandaBarFabButton> {
         ];
 
     return Padding(
-      padding: EdgeInsets.only(bottom: 50),
+      padding: EdgeInsets.only(bottom: 25),
+      //50^^^^^^^^^^
       child: InkResponse(
         highlightColor: Colors.transparent,
         splashColor: Colors.transparent,
